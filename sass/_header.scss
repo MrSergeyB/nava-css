@@ -1,0 +1,116 @@
+.header {
+  height: 120vh;
+  background-image: url("../img/hero-background.jpg");
+  background-position: top;
+  background-size: cover;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-family: "Raleway";
+
+  .nav {
+    width: 40%;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+    .nav-list {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .nav-item {
+        list-style: none;
+        .nav-link {
+          color: #fff;
+          text-transform: uppercase;
+          line-height: 1.7;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+
+    .heading-primary {
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .header-primary--main {
+      display: block;
+      font-size: 7.5rem;
+      letter-spacing: 0.5rem;
+    }
+
+    .header-primary--sub {
+      display: block;
+      font-size: 3rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+
+  .header__search-bar {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .search-bar {
+    border: none;
+    width: 60rem;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    outline: none;
+    font-size: 1.6rem;
+    margin-right: -3.5rem;
+  }
+
+  .search-btn {
+    background-color: #e7434e;
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 6rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    height: 6rem;
+  }
+}
+
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.btn-outlined {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 0 3.5rem;
+  line-height: 3.8rem;
+  min-width: 14rem;
+  height: 4rem;
+
+  &:hover {
+    background: #fff;
+    color: #2c3e50;
+  }
+}
