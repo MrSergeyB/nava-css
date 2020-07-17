@@ -274,4 +274,61 @@ body {
   background: #fff;
   color: #2c3e50;
 }
+
+.content .rent-boat {
+  height: 95vh;
+  width: 100%;
+  background-image: url("../img/rent-boat-background.jpg");
+  background-position: top;
+  background-size: cover;
+  padding: 3rem;
+  position: relative;
+  text-align: center;
+}
+
+.content .rent-boat__heading {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content .rent-boat__text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.content .rent-boat__heading--main {
+  display: block;
+  font-size: 7.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.content .rent-boat__heading--sub {
+  display: block;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+.btn-rent {
+  background-color: #e7434e;
+  font-size: 1.5rem;
+  padding: 2rem 4rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 6rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  height: 6rem;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
 /*# sourceMappingURL=main.css.map */
